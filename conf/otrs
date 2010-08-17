@@ -1,0 +1,3 @@
+/var/lib/otrs
+-/var/lib/otrs/httpd
+-/var/lib/otrs/tmp

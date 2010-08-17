@@ -1,0 +1,2 @@
+/var/lib/twiki
+-/etc/twiki/apache.conf # 2009.10-2 workaround
