@@ -3,11 +3,15 @@
 # data
 /opt
 /srv
-/root
--/root/.cache
 /home
 
+/root
+-/root/.cache # duplicity caches by default here
+
 # system minus instance-specific stuff
+/usr/local
+/usr/src
+
 /etc
 -/etc/apt
 -/etc/resolv.conf
@@ -22,8 +26,10 @@
 -/etc/ssh/ssh_host_*
 -/etc/mysql/debian.cnf
 
-/usr/local
-/usr/src
+# temporary workaround to prevent 2009.10-2 changes getting into the delta
+# (we won't need this once we begin versioning appliances explicitly)
+-/etc/apache2/mods-available/substitute.conf 
+-/etc/webmin/webmin/config
 
 # ec2 blacklist
 -/etc/event.d/console
@@ -38,3 +44,5 @@
 -/var/spool/postfix/lib
 -/var/spool/postfix/private
 -/var/spool/postfix/public
+
+
