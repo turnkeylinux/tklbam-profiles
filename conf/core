@@ -39,6 +39,7 @@
 
 # /var whitelist
 /var/www
+/var/lib/shellinabox # in case you reconfigure the certificate
 /var/spool
 -/var/spool/postfix/lib
 -/var/spool/postfix/private
