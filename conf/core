@@ -10,7 +10,6 @@
 
 # system minus instance-specific stuff
 /usr/local
-/usr/src
 
 /etc
 -/etc/apt
