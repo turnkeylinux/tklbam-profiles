@@ -1,3 +1,2 @@
 /var/lib/samba
 /var/lib/mldonkey
--/var/www/index.php # 2009.10-2 workaround

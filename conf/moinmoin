@@ -1,3 +1,2 @@
 /var/lib/moin
 -/var/lib/moin/cache
--/etc/moin/mywiki.py # 2009.10-2 workaround
