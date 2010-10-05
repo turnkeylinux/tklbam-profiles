@@ -12,6 +12,7 @@
 /usr/local
 
 /etc
+-/etc/turnkey_version
 -/etc/ld.so.cache
 -/etc/apt
 -/etc/resolv.conf
