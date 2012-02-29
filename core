@@ -26,11 +26,12 @@
 -/etc/udev/rules.d
 -/etc/ssh/ssh_host_*
 -/etc/mysql/debian.cnf
+-/etc/webmin/system-status/history
 
 # ec2 blacklist
 -/etc/event.d/console
 -/usr/local/bin/ec2metadata
--/usr/local/lib/python2.5/site-packages/ec2metadata.py*
+-/usr/local/lib/python2.6/dist-packages/ec2metadata.py*
 
 # vmdk blacklist
 -/etc/kernel-img.conf
