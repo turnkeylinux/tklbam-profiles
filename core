@@ -1,4 +1,4 @@
-# Copyright (c) 2010 Liraz Siri <liraz@turnkeylinux.org> - all rights reserved
+# Copyright (c) 2010-2013 Liraz Siri <liraz@turnkeylinux.org> - all rights reserved
 
 # data
 /opt
@@ -37,11 +37,13 @@
 -/etc/kernel-img.conf
 
 # /var whitelist
+/var/run
 /var/www
 /var/lib/shellinabox # in case you reconfigure the certificate
 /var/spool
 -/var/spool/postfix/lib
 -/var/spool/postfix/private
 -/var/spool/postfix/public
+
 
 
