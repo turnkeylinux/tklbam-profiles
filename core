@@ -38,12 +38,12 @@
 
 # /var whitelist
 /var/run
+-/var/run/*.pid
+-/var/run/*/*.pid
+
 /var/www
 /var/lib/shellinabox # in case you reconfigure the certificate
 /var/spool
 -/var/spool/postfix/lib
 -/var/spool/postfix/private
 -/var/spool/postfix/public
-
-
-
