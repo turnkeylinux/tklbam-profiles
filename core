@@ -47,4 +47,7 @@
 -/var/spool/postfix/lib
 -/var/spool/postfix/private
 -/var/spool/postfix/public
+-/var/spool/postfix/pid
+-/var/spool/postfix/dev
+
 -/var/spool/tklbam-squid
