@@ -1,0 +1,19 @@
+#!/bin/bash
+#
+
+op=$1
+state=$2
+
+if [ "$op" != "restore" ] || [ "$state" != "post" ]; then
+    exit 0
+fi
+
+if echo $TKLBAM_RESTORE_PROFILE_ID | grep -q '^turnkey-redmine-12\.'; then
+    echo "# HOOK :: $0 $op $state"
+
+    env | grep ^TKLBAM_ | sed 's/^/  /g'
+    set -x
+    sed -i 's/adapter: mysql$/adapter: mysql2/g' /var/www/redmine/config/database.yml
+    echo
+fi
+    
