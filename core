@@ -10,6 +10,7 @@
 /usr/local
 
 /etc
+-/etc/debian_version
 -/etc/turnkey_version
 -/etc/ld.so.cache
 -/etc/apt
