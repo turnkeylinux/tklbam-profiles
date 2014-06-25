@@ -1,3 +1,6 @@
+## This is the base profile which all app-specific profiles inherit from
+## See README.rst for details
+
 # data
 /opt
 /srv
