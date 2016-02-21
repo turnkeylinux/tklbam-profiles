@@ -1,0 +1,3 @@
+/var/lib/emby-server
+-/var/lib/emby-server/cache/temp
+-/var/lib/emby-server/transcoding-temp
