@@ -13,6 +13,7 @@
 /usr/local
 
 /etc
+-/etc/grub.d
 -/etc/debian_version
 -/etc/turnkey_version
 -/etc/ld.so.cache
