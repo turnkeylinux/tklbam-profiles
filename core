@@ -53,3 +53,6 @@
 -/var/spool/postfix/dev
 
 -/var/spool/tklbam-squid
+
+# dehydrated data for SSL certs
+/var/lib/dehydrated
