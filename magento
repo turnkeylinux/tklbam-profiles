@@ -1,0 +1,7 @@
+# Users sessions
+-/var/www/magento/var/session
+# All cacheable objects except the page cache
+-/var/www/magento/var/cache 
+# Cached pages from the full page cache mechanism
+-/var/www/magento/var/page_cache
+
