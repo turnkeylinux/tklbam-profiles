@@ -1,1 +1,6 @@
 /var/lib/roundup
+/home/roundup
+/usr/share/doc/roundup
+/etc/roundup
+/etc/mysql/mariadb.conf.d/
+
