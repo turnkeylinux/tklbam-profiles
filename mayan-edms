@@ -1,5 +1,1 @@
-/usr/share/mayan-edms
-
--/usr/share/mayan-edms/*.pid
--/usr/share/mayan-edms/*.sock
--/usr/share/mayan-edms/lib/python2.7/site-packages/mayan/media/document_cache
+-/opt/mayan-edms/media/document_cache
