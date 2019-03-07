@@ -1,0 +1,8 @@
+# exclude gitlab install dir (provided via package)
+-/opt/gitlab
+
+# include the hook script generated backup created with GitLab
+/var/cache/tklbam-gitlab
+
+# exclude the gitlab tklbam hook script override conf (if it exists)
+-/etc/tklbam/hooks.d/gitlab-override.conf
