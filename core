@@ -32,6 +32,24 @@
 -/etc/mysql/debian.cnf
 -/etc/webmin/system-status/history
 
+# live-boot dirs - di-live & live-tools removed at install for v16.0
+-/etc/init.d/di-live
+-/etc/init.d/live-tools
+-/etc/live
+-/etc/rc0.d/K01di-live
+-/etc/rc0.d/K01live-tools
+-/etc/rc6.d/K01di-live
+-/etc/rc6.d/K01live-tools
+-/etc/rcS.d/S01di-live
+-/etc/rcS.d/S01live-tools
+-/etc/systemd/system/live-tools.service
+-/etc/systemd/system/rescue.service.d
+-/etc/systemd/system/rescue.service.d/override.conf
+-/etc/systemd/system/rescue.target.d
+-/etc/systemd/system/rescue.target.d/override.conf
+-/etc/systemd/system/rescue.target.wants
+-/etc/systemd/system/rescue.target.wants/di-live.service
+
 # ec2 blacklist
 -/etc/event.d/console
 -/usr/local/bin/ec2metadata
