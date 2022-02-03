@@ -1,3 +1,4 @@
 /turnkey/fab
 -/turnkey/fab/bootstraps
 -/turnkey/fab/products/*/build
+-/var/spool/squid
